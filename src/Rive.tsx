@@ -766,6 +766,7 @@ const RiveContainer = React.forwardRef<RiveRef, Props>(function RiveContainer(pr
 
   return (
     <View style={[styles.container, style]} testID={testID}>
+      <View style={styles.children}>{children}</View>
       <NativeRiveReactNativeView
         ref={riveRef}
         resourceName={resource.resourceName}
@@ -789,7 +790,6 @@ const RiveContainer = React.forwardRef<RiveRef, Props>(function RiveContainer(pr
         animationName={animationName}
         stateMachineName={stateMachineName}
       />
-      <View style={styles.children}>{children}</View>
     </View>
   );
 });
