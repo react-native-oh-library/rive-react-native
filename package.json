@@ -1,55 +1,28 @@
 {
-  "name": "rive-react-native",
+  "name": "@react-native-ohos/rive-react-native",
   "version": "9.7.1",
-  "runtimeVersions": {
-    "ios": "6.12.3",
-    "android": "10.5.3"
-  },
-  "workspaces": [
-    "example"
-  ],
   "description": "Rive React Native",
   "source": "src/index.tsx",
-  "main": "lib/commonjs/index.js",
-  "module": "lib/module/index.js",
-  "types": "lib/typescript/index.d.ts",
+  "main": "src/index.tsx",
   "react-native": "src/index.tsx",
   "files": [
     "src",
-    "lib",
-    "android",
-    "ios",
-    "cpp",
-    "rive-react-native.podspec",
-    "!lib/typescript/example",
-    "!android/build",
-    "!ios/build",
-    "!**/__tests__",
-    "!**/__fixtures__",
-    "!**/__mocks__"
+    "harmony"
   ],
-  "scripts": {
-    "test": "jest",
-    "typescript": "tsc --noEmit",
-    "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "prepare": "bob build",
-    "release": "release-it",
-    "example": "yarn --cwd example",
-    "pods": "cd example && pod-install --quiet",
-    "bootstrap": "yarn example && yarn && yarn pods"
-  },
   "keywords": [
     "react-native",
-    "ios",
-    "android"
+    "harmony",
+    "rive-react-native"
   ],
-  "repository": "https://github.com/rive-app/rive-react-native",
-  "author": "TMaszko <tomasz.krzyzowski@callstack.com> (https://github.com/rive-app/rive-react-native)",
+  "harmony": {
+    "alias": "rive-react-native"
+  },
+  "repository": "https://github.com/react-native-oh-library/rive-react-native",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rive-app/rive-react-native/issues"
+    "url": "https://github.com/react-native-oh-library/rive-react-native/issues"
   },
-  "homepage": "https://github.com/rive-app/rive-react-native#readme",
+  "homepage": "https://github.com/react-native-oh-library/rive-react-native",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -71,7 +44,9 @@
     "prettier": "^3.0.3",
     "react-native-builder-bob": "^0.20.4",
     "release-it": "^17.10.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "react-native": "0.72.5",
+    "rive-react-native":"9.7.0"
   },
   "peerDependencies": {
     "react": "*",

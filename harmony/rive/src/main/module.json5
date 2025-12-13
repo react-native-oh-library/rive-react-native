@@ -1,0 +1,9 @@
+{
+  "module": {
+    "name": "rive",
+    "type": "har",
+    "deviceTypes": [
+      "default"
+    ]
+  }
+}
