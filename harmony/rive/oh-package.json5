@@ -1,0 +1,14 @@
+{
+  "name": "@react-native-ohos/rive-react-native",
+  "version": "9.8.0-rc.1",
+  "description": "",
+  "main": "Index.ets",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "rive_ohos": "file:rive_ohos.har",
+    "@ohos/axios": "^2.2.6"
+  },
+  "devDependencies": {},
+  "dynamicDependencies": {}
+}
