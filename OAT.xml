@@ -37,9 +37,11 @@
          	    <filteritem type="filepath" name="harmony/rive/build-profile.json5" desc="工程配置文件，不添加许可证头"/>
          	    <filteritem type="filepath" name="harmony/rive/hvigorfile.ts" desc="工程配置文件，不添加许可证头"/>
          	    <filteritem type="filepath" name="harmony/rive/oh-package.json5" desc="工程配置文件，不添加许可证头"/>
+                <filteritem type="filepath" name="src/.*" desc="源库代码，不修改许可证头，以防有修改许可证风险"   />
             </filefilter>
             <filefilter name="binaryFileTypePolicyFilter" desc="Filters for copyright header policies">
                 <filteritem type="filepath" name="harmony/rive.har" desc="项目打包文件"/>
+                <filteritem type="filepath" name="harmony/rive/rive_ohos.har" desc="依赖库"/>
                 <filteritem type="filepath" name="harmony/rive/src/main/resources/.*" desc="资源文件，不添加许可证头"/>
                 <filteritem type="filepath" name="harmony/rive/src/ohosTest/resources/.*" desc="资源文件，不添加许可证头"/>                
             </filefilter>
@@ -51,6 +53,7 @@
          	    <filteritem type="filepath" name="harmony/rive/build-profile.json5" desc="工程配置文件，不添加许可证头"/>
          	    <filteritem type="filepath" name="harmony/rive/hvigorfile.ts" desc="工程配置文件，不添加许可证头"/>
          	    <filteritem type="filepath" name="harmony/rive/oh-package.json5" desc="工程配置文件，不添加许可证头"/>
+                <filteritem type="filepath" name="src/.*" desc="源库代码，不修改许可证头，以防有修改许可证风险"   />
             </filefilter>
         </filefilterlist>
     </oatconfig>
