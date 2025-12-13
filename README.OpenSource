@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "rive-react-native",
+        "License": "MIT License",
+        "License File": "https://github.com/rive-app/rive-react-native/blob/main/LICENSE",
+        "Version Number": "9.7.0",
+        "Owner" : "xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/rive-app/rive-react-native",
+        "Description": "Rive React Native"
+    }
+]
