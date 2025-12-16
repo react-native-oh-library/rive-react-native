@@ -250,6 +250,9 @@ export class RiveManager {
       return
     }
     this.fit = riveFit
+    if (rnFit == RNFit.Layout) {
+       this.riveAnimationView?.controller?.calculateAndSetAutomaticScaleFactor();
+    }
     this.riveAnimationView && (this.riveAnimationView.setFit(riveFit));
   }
 
