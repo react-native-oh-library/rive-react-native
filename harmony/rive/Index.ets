@@ -12,9 +12,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- 
+
+import { RiveModulePackage } from './src/main/ets/turbomodule/RiveModulePackage';
+
 export * from "./ts";
 
 export * from "./src/main/ets/view/RiveView";
 
-export * from "./src/main/ets/view/props/RiveSpec";
+export * from "./src/main/ets/view/props/RiveSpec"
+
+export default RiveModulePackage;

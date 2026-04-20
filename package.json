@@ -15,7 +15,16 @@
     "rive-react-native"
   ],
   "harmony": {
-    "alias": "rive-react-native"
+    "alias": "rive-react-native",
+    "autolinking": {
+      "etsPackageClassName": "RiveModulePackage",
+      "cppPackageClassName": "RivePackage",
+      "cmakeLibraryTargetName": "rnoh_rive",
+      "ohPackageName": "@react-native-ohos/rive-react-native"
+    }
+  },
+  "scripts": {
+    "preinstall":"node ./scripts/remove.js"
   },
   "repository": "https://github.com/react-native-oh-library/rive-react-native",
   "license": "MIT",

@@ -13,8 +13,8 @@
  * limitations under the License.
  */
 
-import type { TurboModule, TurboModuleContext, } from '@rnoh/react-native-openharmony/ts';
-import { RNPackage, TurboModulesFactory, } from '@rnoh/react-native-openharmony/ts';
+import { RNOHPackage } from '@rnoh/react-native-openharmony'
+import { TurboModule, TurboModuleContext, TurboModulesFactory} from '@rnoh/react-native-openharmony/ts';
 import { RiveReactNativeModule } from '../generated/turboModules/RiveReactNativeModule';
 import { RiveReactNativeModuleImpl } from './RiveReactNativeModuleImpl';
 
@@ -31,7 +31,7 @@ class RiveModulesFactory extends TurboModulesFactory {
   }
 }
 
-export class RiveModulePackage extends RNPackage {
+export class RiveModulePackage extends RNOHPackage {
   createTurboModulesFactory(ctx: TurboModuleContext): TurboModulesFactory {
     return new RiveModulesFactory(ctx);
   }
