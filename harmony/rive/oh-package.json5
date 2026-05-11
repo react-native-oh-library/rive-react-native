@@ -7,7 +7,8 @@
   "license": "MIT",
   "dependencies": {
     "rive_ohos": "file:rive_ohos.har",
-    "@ohos/axios": "^2.2.6"
+    "@ohos/axios": "^2.2.6",
+    "@rnoh/react-native-openharmony": "file:../react_native_openharmony"
   },
   "devDependencies": {},
   "dynamicDependencies": {}
