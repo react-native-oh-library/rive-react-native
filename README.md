@@ -4,9 +4,9 @@ This project is based on [rive-react-native ](https://github.com/rive-app/rive-r
 
 ## Documentation
 
-[中文](https://gitcode.com/OpenHarmony-RN/usage-docs/blob/master/zh-cn/rive-react-native.md)
+[中文](https://gitcode.com/CPF-RN/usage-docs/blob/master/zh-cn/rive-react-native.md)
 
-[English](https://gitcode.com/OpenHarmony-RN/usage-docs/blob/master/en/rive-react-native.md)
+[English](https://gitcode.com/CPF-RN/usage-docs/blob/master/en/rive-react-native.md)
 
 ## License
 
